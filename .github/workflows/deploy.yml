@@ -19,7 +19,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      VITE_BASE: /task_marketplace/
+      VITE_BASE: /
     steps:
       - name: Checkout
         uses: actions/checkout@v4
